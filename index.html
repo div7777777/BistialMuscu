@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>bestialmuscu</title>
+</head>
+<body>
+    <style> 
+    *{
+  padding: 0;
+  margin: 0;
+}
+/* changeur de thème */
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.btn{
+    border-radius: 120%;
+    background-color: black;
+    font-size: large;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+}
+/* haut de page */
+.contenair{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: black;
+    width: absolute;
+    opacity: 0.8;
+}
+.nom{
+    color:  tomato;
+    font-size: 15px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+/* menu */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 3px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: tomato;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+ 
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+  /* réseaux sociaux */
+  /* menu humberger */
+.accueil{
+  display: flex;
+  justify-content: center;
+  max-width: 1;
+  position: relative;
+  margin: auto;
+  background-color: darkred;
+}
+.rsx{
+
+  height: 200px;
+  width: 200px;
+  
+}
+.burger a {
+   display: block;
+   color: white;
+   font-size: 25px;
+   padding-top: 18px; 
+   text-decoration: none;
+   max-width: 1000px;
+   position: relative;
+   margin: auto;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sidenav{
+
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.8;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav .closebtn{
+   position: absolute;
+   top: 0;
+   right: 25px;
+   font-size: 36px;
+   margin-left: 50px;
+}
+
+@media screen and (max-heigth: 450px){
+   .sidenav{padding-top: 15px;;}
+   .sidenav a {font-size: 18px;}
+}
+/* listede menu */
+.menu-nav ul {
+  display: flex;
+  flex-direction: row;
+}
+.menu ul li {
+      list-style-type: none;
+      display: inline-block;
+      
+}
+
+.icone {
+
+   width : 200px;
+   height: 200px;
+}
+.menu ul li:hover {
+  transform: scale(1.25,1.25);
+  transition:0.3s all;
+}
+/* menu de recherche */
+.searchbar{
+  margin-left: 15%;
+  padding: 250px;
+  border-radius: 10px;
+}
+.input[type=text]{
+  width: 30%;
+  -webkit-transition: width 0.15s ease-in-out;
+  transition: width 0.15s ease-in-out;
+}
+
+.inpute[type-text]:focus{
+  width: 70%;
+}
+.list{
+  font-size: 1.5em;
+  margin-left: 90px;
+}
+.icones{
+  display: list-item;
+}
+
+
+@media all{
+  .style-menu [type="text"] {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      font-size: 20px;
+      background: whit;
+      color : tomato;
+      padding: 15px;
+      margin: 15px;
+      height: 20px;
+      width: 145px;
+      border-radius: 20px;
+      border-color:  crimson;
+      
+}
+.style-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  top: 
+}
+.loop{
+  background-color: tomato;
+  padding: 9px;
+  border-radius: 12px;
+  
+}
+.footer{
+  background-color: crimson;
+}
+        .copy{
+            font-size: 20px;
+            color: tomato;
+            background-color: black;
+            opacity: 0.9;
+            border-radius: 20px;
+
+        }
+        .pieddepage{
+            background-color: gray;
+        }
+        .marque{
+            font-size: 14px;
+        }
+        .adresse{
+            font-size: 14px;
+        }
+        .horraire{
+            font-size: 14px;
+        }
+        </style> 
+
+    <div class="contenair">
+
+        <div class="title">
+            <h2 class="nom"><img src="https://img.icons8.com/ios-filled/25/8b0000/year-of-ox.png"/>BestialMuscu<img src="https://img.icons8.com/glyph-neue/19/ffffff/flex-biceps.png"/> <style>
+                @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Cinzel+Decorative&family=Cookie&family=El+Messiri&family=Pacifico&family=Palette+Mosaic&family=Rajdhani:wght@400;500&family=Schoolbell&family=Square+Peg&display=swap');
+                </style>
+            </h2>
+        </div>
+           <!-- changeur de thème -->
+        <button class="btn"  onclick="myFunction()">
+            <div class="image">
+                <img src="mode.png" alt="">
+            </div>
+        </button>
+    </div>
+
+    <!-- menu -->
+    <div class="topnav" id="myTopnav">
+        
+        <a href="#home" class="active"> <img src="https://img.icons8.com/glyph-neue/30/ffffff/home.png"/> Home</a>
+        <a href="#news"> <img src="https://img.icons8.com/external-xnimrodx-lineal-gradient-xnimrodx/30/ffffff/external-new-e-commerce-and-business-xnimrodx-lineal-gradient-xnimrodx.png"/>  News</a>
+        <a href="#contact"> <img src="https://img.icons8.com/nolan/30/apple-phone.png"/> Contact</a>
+        <a href="#about"> <img src="https://img.icons8.com/ios-filled/30/dc143c/ask-question.png"/> About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunctions()">
+          <i class="fa fa-bars"><img src="https://img.icons8.com/ios-filled/23/ff6347/menu-rounded.png"/></i>
+        </a>
+      </div>
+    </div>
+    <!--  -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn"  onclick="closeNav()"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAADY0lEQVRoge2XwW8UZRjGn2/cTveEHoQ1kcQUExKMwXZlIYrAhhq71m21KRYV/ww9VMKFmJro/+Ghuq4oHox6sD1pW1pM5AiaeOi0qdKmTeiw3/N42K5C2WVnvhmbmMxzmcvMO7/ne9935n2BTJkyZcqUKdP/UFujbw3cfu2dQ0njBKWXD630l/tdn/dcHtocvTBJmWuPGHtjY/h81fXlq8Vy1TTu3oDs4sqzJyddYsQ2sDn69vsSpyACUi/E2sbQudfjxlk5dvZVSZ+B7BUFSlPBkROX4saJZWBz9MKkhI934CEKEH2J0xuvjEXOxGqxXJW1X4LMi4JIgASJy8uHS7EyYaLeuDXybpGwC7vgd66CqNCDHd/3w9dXu8FTqhnSvxf+33gEG3bg4G9LS1G4ImfgLnkb4nYHeED0bQO1P8sjHTMRBR7Udk5cj8oV2cBj33x605BviLrTBr55hXzQ1v46NfxAT7Rqvgt8KGniid9/uRWVK3IJtbQ+NFaBTB1S/oFMiEATLpTFxOM/fXulBQ9rv9hd823g33zy1uJXcXhiGwCA9cGxisB7TNwH3wQjQ9BOECb8r+CdDQDAxuBI1TZQA+S3gW+CSSFJdCsbwo4fvHn9oc2fugEAWCsPVwxRB5VvA38fcNonn4oBAFh7abgC2rqo/F7Dp2IAANZeGKrI2rrI/F7Cp2YAAFZKgxVDNk3sETwA5NIIAgCQTLeTl1U4v2nnrWdSOzinaXS3onznZRXObdklwrzoy0x/V+iPPQC2U2IDceAlc7wHBj6M7yM3PVM4lthEolQ6wRuDXuO1XhwCmDgdzF9xZXDOQNTxYGGrsdABHgB8ANOzhaLzUuRkIM5s01Ducg/MnTbw/5gQvJprOcUuIZfB7Pv9xUqP59UNkH9IaKdyimUgyVQ5u79Ukac6UjYR2UDw/NmnDe2vrR3WZTCbLRSrgldDs/Y7aVvwjpwJfo60E0TuAdNo7EsCDwCngmtXDTiO5kl3kp+jHo3KFdnAgeszi7D8IOlI3N2EuXhydS7SPgw4NHHwzIn3aPFJ0tmmXU8IunQmWPgwThynH9ny4dIkySlQ24Q957qM7PTE5wB8wFw8Hcx95BLHSX/0DTy3/NTRvqRxfiwc75s5UDyaBlOmTJkyZcqUaa/1N2LvEaoUmSS4AAAAAElFTkSuQmCC"></a>
+        <div class="burger">
+                <div class="flex">
+
+                    <a href="#"><img src="https://img.icons8.com/ios-filled/50/E74C3C/facebook--v1.png"/></a>
+                    <a href="#"><img src="https://img.icons8.com/ios-filled/50/E74C3C/instagram.png"/></a>
+                    <a href="#"><img src="https://img.icons8.com/pastel-glyph/64/E74C3C/email--v3.png"/></a>
+                    <a href="#"><img src="https://img.icons8.com/ios-filled/50/E74C3C/linkedin.png"/></a>
+                    <a href="#"><img src="https://img.icons8.com/ios-filled/50/E74C3C/twitter-squared.png"/></a>
+                    <a href="#"><img src="https://img.icons8.com/ios-filled/50/E74C3C/phone-not-being-used.png"/></a>
+                    <a href="#"><img src="https://img.icons8.com/ios-filled/50/E74C3C/order-delivered.png"/></a>
+    
+    
+                </div>
+    
+        </div>
+    
+    
+    </div>
+    <!-- accueil -->
+    <div class="accueil-nom">
+    <div class="accueil">
+            <span style="font-size: 30px; cursor: pointer"; onclick = "openNav()">
+                <img class="rsx" src="rsx.png">
+               
+                 
+            </span>
+    
+    </div>
+                  <!-- barre de recherche fonctionelle -->
+                  
+                  <div class="style-menu">
+                    <input class="images" id="searchbar" onkeyup="search_icones()" type="text"
+                    name="search" placeholder="search...">
+                    <div class="loop">
+                        <div class="figures">
+                           <img class="figs1" src="https://img.icons8.com/external-becris-lineal-becris/30/000000/external-loupe-mintab-for-ios-becris-lineal-becris.png"/>
+                            <img class="figs2" src="https://img.icons8.com/pastel-glyph/25/000000/shopping-trolley--v1.png"/></div> 
+                            <style>
+                                .figures{ display: flex;}</style>
+                        </div>
+                    </div>
+                
+            <nav class="menu">
+    
+                <ul class="icones">
+                    <li class="icone"><a href="omega3.png"><img src="omega3.png" alt="omega 3"></a></li>
+                    <li class="icone"><a href="protein.png"><img src="protein.png" alt="whey"></a></li>
+                    <li class="icone"><a href="creatin.png"><img src="creatin.png" alt="creatin"></a></li>
+                    <li class="icone"><a href="article.png"><img src="article.png" alt="article"></a></li>
+                    <li class="icone"><a href="whey.png"><img src="whey.png" alt="whey"></a></li>
+                    <li class="icone"><a href="bien étre.png"><img src="bien étre.png" alt="bien étre"></a></li>
+                </ul>
+            </nav>
+            <footer class="pieddepage">
+                <h4 class="marque">Nos Services : <img src="https://img.icons8.com/ios-filled/25/8b0000/year-of-ox.png"/>BestialMuscu<img src="https://img.icons8.com/glyph-neue/19/8b0000/flex-biceps.png"/> </h4>
+                <h5 class="adresse"> adresse : Mail@gmail.com</h5>
+                <h6 class="horraire">Nos horaires : 7/7j - 24/24h</h6>
+                <h7 class="copy">(copyright) <img src="https://img.icons8.com/ios/15/dc143c/copyright.png"/> HD</h7>
+
+                
+
+        
+            </footer>
+            <script>
+               // changeur de thème
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+// menu
+function myFunctions() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  // réseaux sociaux
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  // barre de recherche
+  function search_icones(){
+    let input = document.getElementById('searchbar').value 
+    input=input.toLowerCase();
+    let x = document.getElementsByClassName('icone');
+    for (i=0; i<x.length; i++){
+        if (!x[i].innerHTML.toLocaleLowerCase().includes(input)){
+            x[i].style.display="none";
+        }
+        else{
+            x[i].style.display="list-item";
+        }
+    }
+} 
+            </script>
+
+
+
+    <!-- JavaScripte -->
+    <script src="code.js" ></script>
+</body>
+</html>
